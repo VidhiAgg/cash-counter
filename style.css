@@ -1,0 +1,96 @@
+:root{
+    --primary-bg-color : #27272a;
+    --max-width : 600px;
+    --primary-font-color: #f9fafb;
+    --secondary-color : #6f7dfa;
+    --fontSize :1.2rem;
+
+}
+body{
+    font-family: 'Crimson Text', serif;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-font-color);
+    
+}
+main{
+margin: auto;
+max-width: var(--max-width);
+padding: 1rem;
+
+
+}
+h1{
+   text-align: center; 
+}
+button{
+   font-size: 1rem;
+   font-weight: 800;
+    margin: auto;   
+    background-color: var(--secondary-color);
+    color: white;
+    border: hidden;
+    padding: 0.5rem;
+    width: 20%;
+    font-family:Arial, sans-serif
+}
+button:hover{
+    cursor: pointer;
+    height: 80%;
+    width: 30%;
+    font-size: 1.2rem;
+}
+.nextBtn{
+    display: block;
+}
+label{
+    text-align: center;
+    margin: auto;  
+    font-size: var(--fontSize);
+    color:  #bec4f5 ;
+}
+.billLabel{
+    display: block;
+}
+input{
+    margin: auto;
+    height: 2rem;
+    width: 100%;
+    padding: 0.4rem;
+    background-color: #e4e4e4 ;;
+
+}
+.billInput{
+    display: block;
+}
+
+table, td, th {
+    border: 1px solid;
+  }
+table{
+    margin: auto;
+    height: 5rem;
+    width: 100%;
+    display: block;
+    margin-left: 0rem;
+    border-collapse: collapse;
+    color:  #bec4f5 ;
+    text-align: center;
+   
+}
+th{
+    background-color: var(--secondary-color);
+    color: #f9fafb;
+}
+caption{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: var(--fontSize);
+}
+#notes{
+    background-color: var(--secondary-color);
+    color: #f9fafb;
+    font-weight: 600;
+   
+}
+

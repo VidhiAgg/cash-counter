@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main>
+            <h1>Cash Register Manager</h1>
+            <p style = "color:  #bec4f5; text-align:justify;">Enter the bill amount and cash given by the customer and know the minimum number of notes to reurn.</p>
+            <label class="billLabel" for="bill-amount">Bill Amount:</label><br>
+            <input class = "billInput" type="text" id="bill-amount" placeholder="Enter the Bill Amount"/><br>
+            <button class="nextBtn" id="next-btn">Next</button><br>
+            <label id="cash-amnt" for="cash-amount">Cash Given:</label><br>
+            <input type="text" id="cash-amount" placeholder="Enter the Cash given"/><br>
+            <button id="check-btn">
+                Check
+            </button>
+            <p style = "color:  #bec4f5; text-align: center;"id="error-message"></p>
+            <table id = "noteTable">
+                <caption>Return Changes</caption>
+                <tr>
+
+                    <th>No. of Notes</th>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                    <td id="noOfNotes"></td>
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td id="notes">2000</td>
+                    <td id="notes">500</td>
+                    <td id="notes">100</td>
+                    <td id="notes">50</td>
+                    <td id="notes">20</td>
+                    <td id="notes">10</td>
+                    <td id="notes">5</td>
+                    <td id="notes">1</td>
+                </tr>
+            </table>
+    </main>
+</body>
+<script src="app.js" type="text/javascript"></script>
+
+</html>
