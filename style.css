@@ -39,7 +39,7 @@ button:hover{
     width: 30%;
     font-size: 1.2rem;
 }
-.nextBtn{
+#next-btn{
     display: block;
 }
 label{
@@ -59,7 +59,7 @@ input{
     background-color: #e4e4e4 ;;
 
 }
-.billInput{
+#bill-amount{
     display: block;
 }
 

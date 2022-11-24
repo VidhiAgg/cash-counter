@@ -15,14 +15,16 @@
             <h1>Cash Register Manager</h1>
             <p style = "color:  #bec4f5; text-align:justify;">Enter the bill amount and cash given by the customer and know the minimum number of notes to reurn.</p>
             <label class="billLabel" for="bill-amount">Bill Amount:</label><br>
-            <input class = "billInput" type="text" id="bill-amount" placeholder="Enter the Bill Amount"/><br>
-            <button class="nextBtn" id="next-btn">Next</button><br>
+            <input  type="text" id="bill-amount" placeholder="Enter the Bill Amount"/><br>
+            <button id="next-btn">Next</button><br>
             <label id="cash-amnt" for="cash-amount">Cash Given:</label><br>
             <input type="text" id="cash-amount" placeholder="Enter the Cash given"/><br>
             <button id="check-btn">
                 Check
             </button>
-            <p style = "color:  #bec4f5; text-align: center;"id="error-message"></p>
+            
+            <p style = "color:  #bec4f5; font-size: 1.2rem; font-weight: 600; text-align: center;"id="amtReturn-Message">Amount to be Retuned: </p>
+            <p style = "color:  #bec4f5; font-size: 1.2rem; font-weight: 600; text-align: center;"id="error-message"></p>
             <table id = "noteTable">
                 <caption>Return Changes</caption>
                 <tr>
