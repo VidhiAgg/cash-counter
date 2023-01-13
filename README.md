@@ -1,6 +1,6 @@
-# Banana Speak
+# Cash counter
 
-# Its a fun playing website which get you to speak minion speak.
+# With this app, you can get the amount to return to th user, On inputting Cash Amount to paid and Cash Amount Given.
 
 ## Tech stack used
 * HTML 5
@@ -8,5 +8,4 @@
 * JAVASCRIPT
 
 Click me 
-
-https://english-to-banana-convertor.netlify.app/
+https://cashier-counter.netlify.app/
